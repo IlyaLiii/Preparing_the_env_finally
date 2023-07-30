@@ -1,13 +1,13 @@
 """Генератор приветствий."""
 
-def Greeting(name: str) -> str:
+
+def greeting(name: str) -> str:
     """Возвращает текст приветствия.
 
-      Args:
-          name: Имя пользователя
-
-      Returns:
-          int: Текст приветствия
-      """
+    Args:
+        name: Имя пользователя
+    Returns:
+        str: Текст приветствия
+    """
     name = name.title()
-    return 'Привет, {}'.format(name)
+    return 'Привет, {0}'.format(name)
