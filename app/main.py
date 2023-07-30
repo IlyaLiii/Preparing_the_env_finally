@@ -6,8 +6,8 @@ def greeting(name: str) -> str:
 
     Args:
         name: Имя пользователя
+
     Returns:
         str: Текст приветствия
     """
-    name = name.title()
-    return 'Привет, {0}'.format(name)
+    return 'Привет, {0}'.format(name.title())
