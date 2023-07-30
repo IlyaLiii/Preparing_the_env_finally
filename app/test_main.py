@@ -2,10 +2,10 @@ from pytest import mark
 
 from main import greeting
 
-TEST_TUPLES = ('Никита', 'Привет, Никита'), ('Ольга', 'Привет, Ольга')
+TEST_DATA = (('Никита', 'Привет, Никита'), ('Ольга', 'Привет, Ольга'))
 
 
-@mark.parametrize('name,expected', [TEST_TUPLES])
+@mark.parametrize('name,expected', TEST_DATA)
 def test_greeting(name: str, expected: str):
     """Текст приветствия зависит от имени."""
     assert greeting(name) == expected
