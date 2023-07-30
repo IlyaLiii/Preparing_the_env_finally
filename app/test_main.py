@@ -2,6 +2,7 @@ from pytest import mark
 
 from main import greeting
 
+
 TEST_DATA = (('Никита', 'Привет, Никита'), ('Ольга', 'Привет, Ольга'))
 
 
