@@ -1,5 +1,6 @@
-import pytest
+"""Test module app/main."""
 
+import pytest
 from main import greeting
 
 TEST_DATA = (('Никита', 'Привет, Никита'), ('Ольга', 'Привет, Ольга'))
